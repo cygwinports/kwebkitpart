@@ -1,0 +1,5 @@
+category: KDE
+requires: libkwebkit1 libkdecore5-devel libQtCore4-devel
+external-source: webkitkde
+sdesc: "KDE4 WebKit HTML rendering widget library (runtime)"
+ldesc: "Alternative WebKit-based HTML rendering KPart for KDE4"

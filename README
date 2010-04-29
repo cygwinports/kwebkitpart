@@ -1,0 +1,64 @@
+kwebkitpart
+------------------------------------------
+Alternative WebKit-based HTML rendering KPart for KDE4.
+
+Runtime requirements:
+  cygwin-1.7.5-1
+  libgcc1-4.3.4-3
+  libkdecore5-4.4.2-1
+  libQtCore4-4.6.2-1
+  libQtDBus4-4.6.2-1
+  libQtGui4-4.6.2-1
+  libQtNetwork4-4.6.2-1
+  libQtWebKit4-4.6.2-1
+  libstdc++6-4.3.4-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  automoc4-0.9.88-10
+  binutils-2.20.51-1
+  cmake-2.8.0-11
+  cygport-0.9.83-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
+  make-3.81-2
+  pkg-config-0.23b-10
+
+Canonical website:
+  http://www.kde.org/
+
+Canonical download:
+  http://websvn.kde.org/trunk/extragear/base/kwebkitpart
+
+-------------------------------------------
+
+Build instructions:
+  unpack kwebkitpart-0.9_r1116186-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kwebkitpart-0.9_r1116186-X.cygport all
+
+This will create:
+  /usr/src/libkwebkit-devel-0.9_r1116186-X.tar.bz2
+  /usr/src/libkwebkit1-0.9_r1116186-X.tar.bz2
+  /usr/src/kwebkitpart-0.9_r1116186-X-src.tar.bz2
+  /usr/src/kwebkitpart-0.9_r1116186-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.9_r1116186-1 -----
+Version bump for KDE 4.4, renamed from webkitkde.
+
+----- version 0.9_r1069697-1 -----
+Version bump for KDE 4.3.
+
+----- version 0.985955-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

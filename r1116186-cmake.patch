@@ -1,0 +1,19 @@
+--- origsrc/kwebkitpart/cmake/modules/FindKWebKitPart.cmake	2010-04-28 19:04:28.000000000 -0500
++++ src/kwebkitpart/cmake/modules/FindKWebKitPart.cmake	2010-04-28 19:05:03.115359300 -0500
+@@ -32,14 +32,14 @@ FIND_PATH(KWEBKITPART_INCLUDE_DIR NAMES
+   PATHS
+   ${PC_KWEBKITPART_INCLUDEDIR} 
+   ${PC_KWEBKITPART_INCLUDE_DIRS}
+-  ${KDE4_INCLUDE_INSTALL_DIR}
++  ${KDE4_INCLUDE_DIR}
+ )
+ 
+ FIND_LIBRARY(KWEBKITPART_LIBRARIES NAMES kwebkit
+   PATHS
+   ${PC_KWEBKITPART_LIBDIR} 
+   ${PC_KWEBKITPART_LIBRARY_DIRS}
+-  ${KDE4_LIB_INSTALL_DIR}
++  ${KDE4_LIB_DIR}
+ )
+ 
+ include(FindPackageHandleStandardArgs)

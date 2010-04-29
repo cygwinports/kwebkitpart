@@ -1,0 +1,11 @@
+SVN_BRANCH="trunk/extragear/base/${PN}"
+SVN_REV=${PV#*_r}
+
+inherit kde4 svn
+
+PATCH_URI="r1116186-cmake.patch"
+
+PKG_NAMES="${PN} libkwebkit1 libkwebkit-devel"
+kwebkitpart_CONTENTS="--exclude=cmake etc/ usr/lib/kde4/kwebkitpart.dll usr/share/"
+libkwebkit1_CONTENTS="usr/bin/cygkwebkit-1.dll"
+libkwebkit_devel_CONTENTS="usr/include/ usr/lib/kde4/lib/  usr/share/kde4/apps/cmake/"
