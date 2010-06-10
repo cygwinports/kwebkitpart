@@ -1,0 +1,14 @@
+There was no public API breakage between 0.9 and 0.9.5, just some minor 
+additions.
+
+--- origsrc/kwebkitpart/src/CMakeLists.txt	2010-06-09 19:34:04.000000000 -0500
++++ src/kwebkitpart/src/CMakeLists.txt	2010-06-09 20:02:28.304029900 -0500
+@@ -27,7 +27,7 @@ kde4_add_library(kwebkit SHARED ${kwebki
+ 
+ target_link_libraries(kwebkit ${KDE4_KPARTS_LIBS} ${KDE4_KDEWEBKIT_LIBS} ${QT_QTWEBKIT_LIBRARY} ${QT_QTUITOOLS_LIBRARY})
+ 
+-set_target_properties(kwebkit PROPERTIES VERSION 0.9.5 SOVERSION 0.9.5)
++set_target_properties(kwebkit PROPERTIES VERSION 0.9.5 SOVERSION 1)
+ ########################### kwebkit #############################
+ 
+ ########################### kwebkitpart #############################

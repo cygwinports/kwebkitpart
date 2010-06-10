@@ -3,7 +3,10 @@ SVN_REV=${PV#*_r}
 
 inherit kde4 svn
 
-PATCH_URI="r1116186-cmake.patch"
+PATCH_URI="
+	r1116186-cmake.patch
+	r1136474-soversion.patch
+"
 
 PKG_NAMES="${PN} libkwebkit1 libkwebkit-devel"
 kwebkitpart_CONTENTS="--exclude=cmake etc/ usr/lib/kde4/kwebkitpart.dll usr/share/"
