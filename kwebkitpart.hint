@@ -1,4 +1,4 @@
 category: KDE
-requires: libgcc1 libkdecore5 libkwebkit1 libQtCore4 libstdc++6
+requires: libgcc1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtWebKit4 libstdc++6
 sdesc: "KDE4 WebKit HTML rendering KPart"
 ldesc: "Alternative WebKit-based HTML rendering KPart for KDE4"

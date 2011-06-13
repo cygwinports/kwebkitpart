@@ -1,0 +1,2 @@
+GIT_TAG=v${PV}
+inherit kde4 git
