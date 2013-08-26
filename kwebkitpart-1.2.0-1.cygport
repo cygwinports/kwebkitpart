@@ -1,5 +1,0 @@
-GIT_TAG=v${PV}
-inherit kde4 git
-
-
-PATCH_URI="http://quickgit.kde.org/index.php?p=kwebkitpart.git&a=commitdiff_plain&h=60f6a48&hp=d2aba2a"
