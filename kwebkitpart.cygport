@@ -2,7 +2,7 @@ GIT_TAG=v${PV}
 inherit kde4 git
 
 NAME="kwebkitpart"
-VERSION=1.3.3
+VERSION=1.3.4
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE4 WebKit HTML rendering engine"
