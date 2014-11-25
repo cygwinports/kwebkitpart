@@ -3,7 +3,9 @@ inherit kde4 git
 
 NAME="kwebkitpart"
 VERSION=1.3.4
-RELEASE=1
+RELEASE=2
 CATEGORY="KDE"
 SUMMARY="KDE4 WebKit HTML rendering engine"
 DESCRIPTION="Alternative WebKit-based HTML rendering KPart for KDE4"
+
+PATCH_URI="http://pkgs.fedoraproject.org/cgit/kwebkitpart.git/plain/0001-Sanitize-html.patch#/kwebkitpart-1.3.4-CVE-2014-8600.patch"
