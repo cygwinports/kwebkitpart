@@ -2,7 +2,7 @@ inherit kf5 git
 
 NAME="kwebkitpart"
 VERSION=1.3.5
-RELEASE=0.1.20170506git
+RELEASE=0.2.20170924git
 CATEGORY="KDE"
 SUMMARY="KDE WebKit HTML rendering engine"
 DESCRIPTION="Alternative WebKit-based HTML rendering KPart for KDE 5"
